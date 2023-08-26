@@ -1,6 +1,6 @@
 type Props = {
   label: string;
-  iconUrl: string;
+  iconUrl?: string;
 };
 
 const Button = ({ label, iconUrl }: Props) => {
@@ -12,11 +12,13 @@ const Button = ({ label, iconUrl }: Props) => {
     "
     >
       {label}
-      <img
-        className="ml-2 rounded-full w-5 h-5"
-        src={iconUrl}
-        alt="arrow right"
-      />
+      {iconUrl && (
+        <img
+          className="ml-2 rounded-full w-5 h-5"
+          src={iconUrl}
+          alt="arrow right"
+        />
+      )}
     </button>
   );
 };
