@@ -13,7 +13,7 @@ const Hero = () => {
       className="w-full flex
              xl:flex-row flex-col
              justify-center min-h-screen
-              gap-10 max-container"
+             gap-10 max-container"
     >
       <div
         className="relative xl:w-2/5 flex flex-col
