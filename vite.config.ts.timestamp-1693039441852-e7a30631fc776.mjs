@@ -1,5 +1,5 @@
 // vite.config.ts
-import { defineConfig } from "file:///C:/Users/NSDF/Documents/Workspace/Projects/Reacts/nike/node_modules/vite/dist/node/index.js";
+import { defineConfig } from "file:///C:/Users/NSDF/Documents/Workspace/Projects/Reacts/nike/node_modules/vite/dist/node/index.ts";
 import react from "file:///C:/Users/NSDF/Documents/Workspace/Projects/Reacts/nike/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()]
