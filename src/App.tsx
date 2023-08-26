@@ -19,7 +19,7 @@ function App() {
   return (
     <main className="relative ">
       <NavBar />
-      <section className="xl:padding-b wide:padding-r padding-b">
+      <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
