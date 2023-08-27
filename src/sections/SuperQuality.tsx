@@ -5,7 +5,7 @@ const SuperQuality = () => {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center
+      className="flex-1 flex justify-between items-center
       flex-wrap max-lg:flex-col gap-10 w-full max-container"
     >
       <div className="flex flex-col">
@@ -30,7 +30,7 @@ const SuperQuality = () => {
           <Button label="View details" />
         </div>
       </div>
-      <div className=" flex-1 flex justify-center items-center">
+      <div className=" flex-1 flex justify-end items-center">
         <img
           src={shoe8}
           className="object-contain"

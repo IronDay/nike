@@ -3,5 +3,13 @@ import NavBar from "./NavBar.tsx";
 import ShoeCard from "./ShoeCard.tsx";
 import PopularProductCard from "./PopularProductCard.tsx";
 import ServiceCard from "./ServiceCard.tsx";
+import ReviewCard from "./ReviewCard.tsx";
 
-export { Button, ServiceCard, NavBar, ShoeCard, PopularProductCard };
+export {
+  Button,
+  ReviewCard,
+  ServiceCard,
+  NavBar,
+  ShoeCard,
+  PopularProductCard,
+};
