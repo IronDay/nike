@@ -8,14 +8,9 @@ import {
   Subscribe,
   Footer,
 } from "./sections";
-import { useEffect } from "react";
 import NavBar from "./components/NavBar.tsx";
 
 function App() {
-  useEffect(() => {
-    document.title = "Nike: dress as you like";
-  }, []);
-
   return (
     <main className="relative ">
       <NavBar />
